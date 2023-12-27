@@ -27,6 +27,12 @@
   }
  }
 
+ .profile {
+  .header>h1 {
+    color: tomato;
+  }
+ }
+
  .gnav {
   width: 100%;
   height: auto;
@@ -34,8 +40,7 @@
   top: 0;
   left: 0;
   > ul {
-    width: 100%;
-    /* positioを入れるときは幅は必要; */
+    width: 100%; /* positioを入れるときは幅は必要; */
     height: 100px;
     display: flex;
     justify-content: center;
